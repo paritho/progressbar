@@ -1,0 +1,50 @@
+input[type="file"] {
+    display:none;
+}
+#complete {
+    opacity:0;
+    transition: opacity 2s ease;
+    float:right;
+    margin:5px;
+    font-size:2em;
+}
+#fileName {
+    display:inline-block;
+    width:90%;
+    height:38px;
+    font-size:1.5em;
+    color:black;
+    float:left;
+    margin:5px;
+}
+#upload-button {
+    color:white;
+    background-color:#5cb85c;
+    border-radius:4px;
+    text-align:center;
+    cursor:pointer;
+    padding:5px;
+    outline:none;
+    width:25%;
+}
+.glyphicon-ok {
+    color:darkgreen;
+}
+.progressBar {
+    height:40px;
+    width:100%;
+    border:1px solid transparent;
+    border-radius:6px;
+    margin:10px 0;
+}
+.percent {
+    background-color: lightcoral;
+    width:0;
+    height:38px;
+    transition: width ease;
+    border-radius:6px;
+}
+.loaded {
+    background-color:lightgreen;
+}
+
